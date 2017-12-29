@@ -1,0 +1,30 @@
+
+		CMPUT 229 Laboratory Assignment #2
+		==================================
+
+Final Mark:           /100 MARKS TOTAL
+                =====
+Part 1:         _____ /80 Testing
+
+Part 2:		_____ /20 Style
+
+-------------------------------------------------------------------------
+Part 1: Basic Blocks
+
+ _____ /80
+
+	selfBranch _____ /20 allBranches ____ /20
+
+	otherInstructions _____ /20 largeOffset _____ /20
+
+------------------------------------------------------------------------
+Part 2: Style
+
+ _____ /20
+ 
+Some common deductions will include: (5 marks per deduction)
+	No subroutine description
+	No program header
+	No explanation for register usage
+	No block comments
+
