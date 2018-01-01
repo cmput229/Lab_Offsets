@@ -76,4 +76,4 @@ Here is the [mark sheet](MarkSheet.txt) used for grading. Assignments that are t
 
 ## Submission
 
-There is a single file to be submitted for this lab. The file name should be `lab2.s` and it should contain only the code for the function specified above. Make sure to not include a main function in your solution. Use the link provided in the course page for submission. Your solution MUST include the [CMPUT 229 Student Submission License](LICENSE.md) at the top of the file containing your solution and you must include your name in the appropriate place in the license text.
+There is a single file to be submitted for this lab. The file name should be `lab2.s` and it should contain only the code for the function specified above. Make sure to not include a main function in your solution. Use the link provided in the course eClass page for submission. Your solution MUST include the [CMPUT 229 Student Submission License](LICENSE.md) at the top of the file containing your solution and you must include your name in the appropriate place in the license text.
