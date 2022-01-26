@@ -26,7 +26,7 @@ All MIPS branch instructions follow a particular format, which makes them trivia
 - **S Register (bits 25-21):** this is the numerical identifier for register `$s` of a branch instruction.
 - **T Register (bits 20-16):** on branches requiring two registers, this bitfield holds the second register, register `$t`.
 - **Link Bit (L, bit 20):** this bit determines whether or not the contents of the `PC` are placed into `$ra` if the branch is taken. This behaviour is identical to that of `jal`.
-- **Branch Offset (bits 15-0):** the branch offset is used to calculate the new value of the `PC` if the branch is taken. To calculate the destination address, the offset, which is in *words*, is multiplied by 4, and added to the current value of the `PC`. When this addition is performed, the `PC` is already pointing to the instruction located 4 bytes **below** the branch, so this is compensated for when originally calculating the branch offset.
+- **Branch Offset (bits 15-0):** the branch offset is used to calculate the new value of the `PC` if the branch is taken. To calculate the destination address, the offset, which is in *words*, is multiplied by 4, and added to the current value of the `PC`. When this addition is performed, the `PC` is already pointing to the instruction located 4 bytes **below** the branch, so this is compensated for when originally calculating the branch offset. This offset can be negative (with the first bit being 1), representing a backwards jump. In this case, make sure you use the appropriate shift instructions that take into account sign-extension.
 
 ### Branch Instructions
 
